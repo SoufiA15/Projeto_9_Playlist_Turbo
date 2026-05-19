@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 ### 1. Leia o Arquivo Dados_Artistas.csv e o Transforme em dataframe
-
+df = pd.read_parquet("Dados_Artistas.parquet")
 
 ### 2. Coloque um titulo na pagina
 
